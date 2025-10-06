@@ -7,6 +7,7 @@ class BankAccount{
   
   BankAccount(String rekeningnummer, float saldo, float geldStorten, float geldAfnemen, String eigenaar){
      this.rekeningnummer = rekeningnummer;
+     this.saldo = saldo;
      this.geldStorten = geldStorten;
      this.geldAfnemen = geldAfnemen;
      this.eigenaar = eigenaar;
